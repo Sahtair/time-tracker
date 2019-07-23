@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  padding: 16px;
 }
 
 .App-logo {
@@ -30,4 +30,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.timer-block {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.timer-block > * {
+  display: inline;
+}
+
+.timer-block > :not(:first-child) {
+  margin-left: 8px
 }
